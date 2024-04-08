@@ -1,0 +1,63 @@
+.main-section {
+    padding: 60px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding-top: 43px;
+  }
+  
+  .verification-form {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .verification-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #d88305;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cebfaf;
+  }
+  
+  #estado-solicitud {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    color: #721c24;
+    border: 1px solid #f7f3f3;
+    border-radius: 4px;
+  }
+  

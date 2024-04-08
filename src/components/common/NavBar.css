@@ -1,0 +1,44 @@
+/* Header.css */
+
+header {
+  background: linear-gradient(to right, #f96c00da, #ff8d13); /* Fondo con gradiente naranja */
+  color: #fff; /* Color del texto */
+  padding: 20px 20px; /* Espaciado interno */
+  padding-bottom: 20px; /* Espacio adicional entre el menú y el nombre del banco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0 0 10px; /* Espaciado inferior adicional para separación */
+  font-size: 28px; /* Tamaño del título */
+  padding-bottom: 10px;
+}
+
+nav ul {
+  list-style: none; /* Elimina los estilos de lista */
+  padding: 0; /* Elimina el espaciado interno */
+  margin: 0; /* Elimina el margen externo */
+}
+
+nav ul li {
+  display: inline; /* Muestra los elementos en línea */
+  margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+  text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+  color: #fff; /* Color del enlace */
+  font-weight: 500; /* Peso de la fuente */
+  padding: 12px 24px; /* Espaciado interno del botón */
+  border-radius: 10px; /* Bordes redondeados del botón */
+  background-color: transparent; /* Color de fondo inicial del botón */
+  border: 2px solid transparent; /* Borde transparente */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave del color de fondo y del borde */
+}
+
+nav ul li a:hover {
+  background-color: #fff; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  color: #f96c00; /* Cambia el color del texto */
+  border-color: #fff; /* Cambia el color del borde */
+}

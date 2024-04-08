@@ -1,0 +1,79 @@
+.main-section {
+    padding: 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bank-info {
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    flex: 1;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e66903;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #de8329;
+  }
+  
+  footer {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #81868b;
+    color: white;
+    text-align: center;
+  }
+  

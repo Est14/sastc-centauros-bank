@@ -1,0 +1,63 @@
+/* Formulario */
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.formulario h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario .columna {
+  flex: 0 0 50%;
+  padding: 0 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23212121'%3E%3Cpath fill-rule='evenodd' d='M16.998 5.5c-.29 0-.559.113-.759.314L10 11.181 3.76 5.814a1.124 1.124 0 00-1.52 1.646l7.5 8c.209.224.487.341.759.341s.55-.117.759-.341l7.5-8a1.124 1.124 0 00-.76-1.933z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button {
+  width: calc(25% - 20px);
+  padding: 12px;
+  background-color: #7e967f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #d78f0a;
+}

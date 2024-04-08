@@ -1,0 +1,24 @@
+#page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Agregado para centrar verticalmente */
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Agregado para un fondo más claro */
+}
+
+#page-container h2 {
+    margin-top: -220px;
+}
+
+#response-details {
+    width: 40%; /* Aumentado el ancho para que sea más visible */
+    background-color: #fff; /* Cambiado el color de fondo a blanco */
+    color: #333; /* Cambiado el color del texto a oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Cambiado el sombreado */
+    text-align: center;
+    margin-top: 20px;
+
+}

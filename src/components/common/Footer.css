@@ -1,0 +1,14 @@
+/* Footer.css */
+
+footer {
+    background: linear-gradient(to right, #f96c00da, #ff8d13);
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; /* Fuente del texto */
+  }
+  
+  footer p {
+    margin: 0; /* Elimina el margen del párrafo */
+  }
+  
