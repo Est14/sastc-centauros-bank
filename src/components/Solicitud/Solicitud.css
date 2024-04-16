@@ -1,0 +1,31 @@
+.solicitud-info {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.solicitud-info p {
+  margin-bottom: 10px;
+}
+
+.solicitud-info h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.solicitud-info button {
+  padding: 10px 15px;
+  background-color: #d88305;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.solicitud-info button:hover {
+  background-color: #f0bf5d;
+}

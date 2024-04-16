@@ -6,6 +6,7 @@ import SolicitarTarjeta from './components/SolicitarTarjeta/SolicitarTarjeta';
 import VerificarEstado from './components/VerificarEstado/VerificarEstado';
 import Home from './components/Home/Home';
 import SolicitudEnviada from './components/SolicitudEnviada/SolicitudEnviada';
+import TransicionPagina from './components/Solicitud/TransicionPagina';
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/solicitar_tarjeta' element={<SolicitarTarjeta />}/>
           <Route path='/verificar_estado' element={<VerificarEstado />}/>
           <Route path='/solicitud_enviada' element={<SolicitudEnviada />}/>
+          <Route path='/solicitud' element={<TransicionPagina />}/>
         </Routes>
       </Router>
       <Footer />

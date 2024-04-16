@@ -1,0 +1,26 @@
+/* TransicionPagina.css */
+
+.transicion-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .transicion-page a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .transicion-page a:hover {
+    text-decoration: underline;
+  }
+  
+  .transicion-page.fade-out {
+    opacity: 0;
+  }
+  

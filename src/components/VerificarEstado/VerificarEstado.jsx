@@ -15,25 +15,13 @@ const VerificarEstado = () => {
         throw new Error('Error al verificar el estado de la solicitud.');
       }
       const data = await response.json();
-      mostrarEstadoSolicitud(data);
+      setEstadoSolicitud(data);
+      // Redireccionar a la página de solicitud con los datos en la URL
+      window.location.href = `/solicitud?data=${encodeURIComponent(JSON.stringify(data))}`;
     } catch (error) {
       console.error('Error:', error);
-      alert('Hubo un error al verificar el estado de la solicitud.');
+      alert(`La solicitud ${codigo} no existe`);
     }
-  };
-
-  const mostrarEstadoSolicitud = (data) => {
-    let mensaje = '';
-    if (data.socreCrediticio === null) {
-      mensaje = 'Solicitud en trámite, intente nuevamente en 5 min.';
-    } else if (data.aprobado && data.socreCrediticio !== null) {
-      mensaje = `¡Felicitaciones su solicitud ha sido aprobada! Monto aprobado: ${data.montoAprobado}
-      Su tarjeta Visa llegara en 3 dias habiles a la direccion registrada para su activacion
-      `;
-    } else {
-      mensaje = 'Lo sentimos no te podemos aprobar una TC en este momento, intentalo nuevamente en 3 meses';
-    }
-    setEstadoSolicitud(mensaje);
   };
 
   return (
@@ -54,7 +42,7 @@ const VerificarEstado = () => {
           </div>
           <button type="submit">Verificar</button>
         </form>
-        <div id="estado-solicitud" style={{ paddingTop: '30px' }}>{estadoSolicitud}</div>
+        {/* No mostramos el estado aquí ya que lo pasaremos a través de la URL */}
       </div>
     </div>
   );
